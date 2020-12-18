@@ -13,7 +13,6 @@ import {
   ListItem,
   Right,
   CheckBox,
-  View,
 } from 'native-base';
 import {colors, styles} from '../styles/styles';
 
@@ -37,18 +36,6 @@ export default class ListSura extends Component {
           </Right>
         </Header>
         <Content padder>
-          <View
-            style={[styles.segment, styles.marginH16, styles.marginBottom24]}>
-            <View style={[styles.segmentItem, styles.backgroundWhite]}>
-              <Text style={styles.textAction}>Surat</Text>
-            </View>
-            <View style={styles.segmentItem}>
-              <Text style={styles.textAction}>Halaman</Text>
-            </View>
-            <View style={styles.segmentItem}>
-              <Text style={styles.textAction}>Juz</Text>
-            </View>
-          </View>
           <List>
             <ListItem avatar>
               <Left>
@@ -59,7 +46,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={true} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -71,7 +58,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={true} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -83,7 +70,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -95,7 +82,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -107,7 +94,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -119,7 +106,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -131,7 +118,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -143,7 +130,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -155,7 +142,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -167,7 +154,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -179,7 +166,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -191,7 +178,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -203,7 +190,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -215,7 +202,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
             <ListItem avatar>
@@ -227,7 +214,7 @@ export default class ListSura extends Component {
                 <Text note>Pembukaan</Text>
               </Body>
               <Right>
-                <CheckBox checked={false} color={colors.tertiary} />
+                <CheckBox checked={false} color={colors.primary} />
               </Right>
             </ListItem>
           </List>
