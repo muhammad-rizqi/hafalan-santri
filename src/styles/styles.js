@@ -1,5 +1,9 @@
 import {StyleSheet} from 'react-native';
 
+export const colors = {
+  primary: '#00676D',
+};
+
 export const styles = StyleSheet.create({
   flex0: {flex: 0},
   flex1: {flex: 1},
