@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './src/screen/ListSura';
+import Home from './src/screen/Home';
 
 const App = () => {
   return <Home />;
