@@ -4,7 +4,6 @@ import LinearGradient from 'react-native-linear-gradient';
 import {styles} from '../styles/styles';
 
 const GridMenu = (props) => {
-  console.log(props);
   return (
     <View style={styles.flexHalf}>
       <LinearGradient
